@@ -1,0 +1,24 @@
+'''
+//File: Assignment 2.1
+//Name: Karina Torres
+//Date: 06.15.2019
+//Course: DSC510
+//Desc: Program calculates total cost for fiber optic installation. Prompts user for data and provides receipt.
+'''
+
+message= 'Hello!'
+print (message)
+
+'''
+The following lines will prompt the user for information to be able to provide an accurate installation quote.
+Prompts will appear in the following order: Company name and number of feet of cable needed.
+'''
+name = input ('What is the name of your company?\n')
+print ('Thank you for that information', name)
+Cable = input ('How many feet of fiber optic cable do you require to be installed?\n')
+print ('Thank you', name,)
+print('Your total cost for', Cable, 'feet of cable is listed below')
+quote = int (Cable) * .87
+print (quote)
+
+#The last 5 lines of code will prompt the user for information and provide an estimate for fiber optic installation.
